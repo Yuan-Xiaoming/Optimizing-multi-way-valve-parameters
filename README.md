@@ -1,4 +1,7 @@
 # Optimizing-multi-way-valve-parameters
+1.Functional Overview：
 The internal structure of the excavator multi-way valve flow channel is an important factor affecting the efficiency of the multi-way valve. Unknown design defects will increase a certain amount of pressure loss, thereby increasing the energy consumption of the machine, affecting the working efficiency of the multi-way valve, and then reducing the reliability of the multi-way valve product, and losing product competitiveness in the market. This program combines BP neural network with genetic algorithm to solve the practical problem of optimizing construction machinery parts. This program is constructed by mapping the pressure loss and structural parameters of the multi-way valve boom connection, and finds the optimal structural parameters corresponding to the minimum pressure loss, thereby optimizing the excavator multi-way valve boom connection flow channel parameters.
+2.Operating Environment
 This software is developed using MATLAB2020b; operating system: Windows10; required computer hardware: dual-core; running memory: 4G or more, memory: 320G or more, mouse (unlimited), keyboard (unlimited), monitor (unlimited).
+3.Operation Manual
 Import the "data" containing "input" and "output" into the main program "BP". The experimental data includes 50 sets of orthogonal tests on the pressure loss of multi-way valve arm joints. After importing, you can view it in the "workspace" of the MATLAB interface; then click the "Run" command in the MATLAB editor to start running the main program "BP".
